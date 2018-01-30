@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<table>
+  <base>CRM/Termreport</base>
+  <class>TermReport</class>
+  <name>civicrm_termreport</name>
+  <comment>FIXME</comment>
+  <add>4.4</add>
+  <log>true</log>
+
+  <field>
+    <name>id</name>
+    <type>int unsigned</type>
+    <required>true</required>
+    <comment>Unique TermReport ID</comment>
+    <add>4.4</add>
+  </field>
+  <primaryKey>
+    <name>id</name>
+    <autoincrement>true</autoincrement>
+  </primaryKey>
+  <field>
+    <name>membership_id</name>
+    <type>int</type>
+    <required>true</required>
+    <comment>Membership ID From CIVICRM_MEMBERSHIP Table</comment>
+    <add>4.4</add>
+  </field>
+  <field>
+    <name>start_date</name>
+    <type>date</type>
+    <required>true</required>
+    <comment>Start Date</comment>
+    <add>4.4</add>
+  </field>
+  <field>
+    <name>end_date</name>
+    <type>date</type>
+    <required>true</required>
+    <comment>End Date</comment>
+    <add>4.4</add>
+  </field>
+
+</table>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/term-report</path>
+    <page_callback>CRM_Termreport_Page_TermReport</page_callback>
+    <title>TermReport</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>
